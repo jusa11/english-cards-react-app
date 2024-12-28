@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 100px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.word {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.definition {
+  font-size: 1em;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.button.know {
+  background-color: #4caf50;
+}
+
+.button.know:hover {
+  background-color: #45a049;
+}
+
+.button.dont-know {
+  background-color: #f44336;
+}
+
+.button.dont-know:hover {
+  background-color: #e53935;
+}
+
+.start-over-btn {
+  background-color: #0b11be;
+}
+
+.start-over-btn:hover {
+  background-color: #00008b;
+}
+
+/* Статистика */
+.stats {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.stats span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.restart-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.restart-button:hover {
+  background-color: #45a049;
+}
+
+.btn-hidden {
+  display: none;
+}
+
